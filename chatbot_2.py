@@ -1,36 +1,44 @@
 import time
 
-nombre = input("Tu nombre porfavor?: ")
-print(f"¡¡Hola {nombre}!! Trataré de avergonzarte un poco con unas pequeñas preguntas comprometidas...")
+nombre = input("Tu nombre porfavor (En verdad nos da igual pero es lo correctamente político?: ")
+print(f"¡¡Hola {nombre}!! Empecemos...")
 time.sleep(4)
 
 # Pregunta 1 con validación
 while True:
-    print("\nPregunta 1: ¿Prefieres actividades al aire libre o en interiores?")
-    print("1. Al aire libre")
-    print("2. En interiores")
+    print("\nPregunta 1: ¿Crees que este chatbot te va a solucionar la vida, o es solo otra excusa para perder el tiempo?")
+    print("1. Si")
+    print("2. No, es una excusa perfecta para seguir procastinando")
     respuesta1 = input("Selecciona 1 o 2: ")
     if respuesta1 == "1" or respuesta1 == "2":
+        if respuesta1 == "1":
+            print("Mentiros@")
+        else:
+            pass
         break  # Entrada válida, salir del bucle
     else:
-        print("¡¡Entrada no válida!!. Por favor, selecciona 1 o 2.")
+        print("¡¡Centrate de una vez y por favor, selecciona 1 o 2.")
 
 # Pregunta 2 con validación
 while True:
-    print("\nPregunta 2: ¿Te gusta estar en grupo o solo?")
-    print("1. En grupo")
-    print("2. Solo")
+    print("\nPregunta 2: ¿Has probado buscar en google “como no perder el tiempo?")
+    print("1. Sí.")
+    print("2. No, búscalo vago")
     respuesta2 = input("Selecciona 1 o 2: ")
     if respuesta2 == "1" or respuesta2 == "2":
+        if respuesta2 == "1":
+            print("Mentiros@")
+        else:
+            print("Pues búscalo vag@")
         break
     else:
         print("¡¡Entrada no válida!!. Por favor, selecciona 1 o 2.")
 
 # Pregunta 3 con validación
 while True:
-    print("\nPregunta 3: ¿Prefieres algo activo o relajado?")
-    print("1. Activo")
-    print("2. Relajado")
+    print("\nPregunta 3: ¿Le has preguntado a tu madre? Las madres siempre tienen la respuesta")
+    print("1. Sí, hazle caso a tu madre")
+    print("2. No, quiero seguir buscando el sentido a mi vida")
     respuesta3 = input("Selecciona 1 o 2: ")
     if respuesta3 == "1" or respuesta3 == "2":
         break
@@ -39,20 +47,24 @@ while True:
 
 # Pregunta 4 con validación
 while True:
-    print("\nPregunta 4: ¿Te gusta aprender cosas nuevas?")
+    print("\nPregunta 4: ¿Le has mandado ya el mail a tu jefe?")
     print("1. Sí")
     print("2. No")
     respuesta4 = input("Selecciona 1 o 2: ")
     if respuesta4 == "1" or respuesta4 == "2":
+        if respuesta4 == "1":
+            print("Mentiros@")
+        else:
+            print("¿A que esperas?")
         break
     else:
         print("¡¡Entrada no válida!!. Por favor, selecciona 1 o 2.")
 
 # Pregunta 5 con validación
 while True:
-    print("\nPregunta 5: ¿Tienes mucho tiempo libre?")
+    print("\nPregunta 5: ¿Entonces, vas a comprar BAÏA y dejar de procastinar de una vez?")
     print("1. Sí")
-    print("2. No")
+    print("2. Sí")
     respuesta5 = input("Selecciona 1 o 2: ")
     if respuesta5 == "1" or respuesta5 == "2":
         break
