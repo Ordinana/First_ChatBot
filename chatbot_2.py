@@ -1,8 +1,9 @@
 import time
 
-nombre = input("Tu nombre porfavor (En verdad nos da igual pero es lo correctamente político?: ")
+print("\n¡Hola! Soy el chatbot de BAÏA\n")
+nombre = input("Tu nombre porfavor (En verdad nos da igual pero es lo correctamente político): ")
 print(f"¡¡Hola {nombre}!! Empecemos...")
-time.sleep(4)
+time.sleep(1.5)
 
 # Pregunta 1 con validación
 while True:
@@ -74,18 +75,18 @@ while True:
 print("\nProcesando recomendación", end='', flush=True)
 
 for i in range(5):
-    time.sleep(1)
+    time.sleep(0.5)
     print(".", end='', flush=True)
 
 print("\n")
 
 if respuesta1 == "1" and respuesta2 == "1" and respuesta3 == "1" and respuesta4 == "1" and respuesta5 == "1":
-    print("Te recomendamos unirte a un club de senderismo.")
+    print("Estupendo, nuestra droga BAÏA te ayudará de locos!")
 elif respuesta1 == "1" and respuesta2 == "2" and respuesta3 == "1" and respuesta4 == "1" and respuesta5 == "1":
-    print("Te recomendamos practicar deportes individuales al aire libre, como correr o ciclismo.")
+    print("No seas pesado y comprala ya.")
 elif respuesta1 == "2" and respuesta2 == "1" and respuesta3 == "2" and respuesta4 == "1" and respuesta5 == "2":
-    print("Podrías disfrutar asistiendo a talleres o clases en grupo.")
+    print("Llama a tu psicólogo, que tu procrastinacion no tiene solución.")
 elif respuesta1 == "2" and respuesta2 == "2" and respuesta3 == "2" and respuesta4 == "2" and respuesta5 == "2":
-    print("Te recomendamos relajarte viendo películas o leyendo en casa.")
+    print("Cállate ya y deja de perder el tiempo, panoli.")
 else:
-    print("Basado en tus respuestas, podrías disfrutar de varias actividades de ocio. ¡Explora y diviértete!")
+    print("No tienes solución, pilla otra droga")
