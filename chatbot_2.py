@@ -61,8 +61,8 @@ while True:
 
 print("\nProcesando recomendación", end='', flush=True)
 
-for i in range(3):
-    time.sleep(1,5)
+for i in range(5):
+    time.sleep(1)
     print(".", end='', flush=True)
 
 print("\n")
